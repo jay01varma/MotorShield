@@ -1,0 +1,149 @@
+/* AddOnDetails.css */
+
+/* Container for the entire page */
+.add-ons-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background color for better contrast */
+  min-height: 100vh; /* Ensure the page covers the viewport height */
+  box-sizing: border-box; /* Ensure padding and border are included in total width and height */
+  margin-top: 80px; /* Add margin-top to account for navbar height */
+}
+
+/* Title of the page */
+.add-ons-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container for the selected insurance types */
+.selected-insurance-types {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Container for the carousel and company name */
+.carousel-container {
+  display: flex;
+  flex-direction: column; /* Stack company name and carousel in a column */
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%; /* Full width to handle card layout */
+  max-width: 1200px; /* Maximum width for the container */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Company title above the cards */
+.company-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px; /* Space between company name and carousel */
+}
+
+/* Container for carousel buttons and add-on cards */
+.carousel {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Full width */
+  overflow-x: auto; /* Horizontal scroll if needed */
+  gap: 20px; /* Space between buttons and cards */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Carousel buttons */
+.carousel-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.carousel-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Individual add-on card */
+.add-card {
+  flex: 1; /* Allow cards to grow and shrink equally */
+  min-width: 300px; /* Minimum width for each card */
+  max-width: 300px; /* Maximum width for each card */
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.add-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Styling for the add-on labels */
+.addon label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.addon h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.addon p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.addon input[type="checkbox"] {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Error message styling */
+.vehicle-error {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Container for the submit button */
+.add-on-btn-container {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center the submit button horizontally */
+  margin-top: 30px;
+}
+
+/* Styling for the submit button */
+.btn.light-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.btn.light-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+
+
+ 
