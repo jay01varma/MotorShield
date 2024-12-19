@@ -103,9 +103,6 @@ We welcome contributions to enhance the MotoShield platform. Please follow these
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-
-For any inquiries or issues, please contact us at jay01varma.com.
-
----
-
-This README file provides a clear and comprehensive overview of the MotoShield project, its features, technology stack, installation process, usage instructions, and contribution guidelines.
+Name: **Jay Dilip Varma**  
+Email: jay01varma@gmail.com  
+LinkedIN: [jay01varma](https://www.linkedin.com/in/connect-wtih-jay-varma/)
